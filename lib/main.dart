@@ -11,7 +11,8 @@ class Helloworld extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-            title: Text("CSC EVENING CLASS"), backgroundColor: Colors.brown),
+            title: Text("CSC EVENING CLASS"),
+            backgroundColor: Color(0xffec9d81)),
         backgroundColor: Colors.white,
         body: Body(),
       ),
